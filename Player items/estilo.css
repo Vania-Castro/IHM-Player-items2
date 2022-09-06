@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.banner{
+    width: 150px;
+    height: 300px;
+    border: #98c3d6 solid;
+    position: relative;
+    top: 80px;
+    left: 1175px;
+    background-color: #c8dedfe7;
+}
+
+.banner .mensaje{
+    color: rgb(37, 19, 19);
+    font-family: 'Open Sans', sans-serif;
+
+
+}
+
+.pie-pagina{
+    width: 100%;
+    background-color: #abb0c9;
+    position: absolute;
+    bottom: 0;
+}
+
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 50px;
+    padding: 15px 0px;
+}
+
+.pie-pagina .grupo-1 .box h2{
+    color: rgb(8, 8, 8);
+    margin-bottom: 25px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.pie-pagina .grupo-1 .box p{
+    color: #1f1717;
+    margin-bottom: 10px;
+}
+
+.pie-pagina .grupo-1 .red-social{
+    height: 10px;
+    line-height: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.pie-pagina .grupo-1 .box button{
+    --color: #000;
+    font-family: 'Open Sans', sans-serif;
+    display: inline-block;
+    width: 7em;
+    height: 2.6em;
+    line-height: 2.5em;
+    margin: 20px;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid var(--color);
+    transition: color .5s;
+    z-index: 1;
+    font-size: 13px;
+    border-radius: 6px;
+    font-weight: 500;
+    color: var(--color);
+    background-color: #5289ad;
+    left: 160px;
+    top: -20px;
+}
+
+.pie-pagina .grupo-1 .box input{
+    position: relative;
+    top: -73px;
+    border: 2px solid;
+    border-radius: 6px;
+    height: 2.5em;
+}
